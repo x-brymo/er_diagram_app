@@ -1,4 +1,3 @@
-import 'package:er_diagram_app/features/UI/home/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_syntax_view/flutter_syntax_view.dart';
@@ -6,9 +5,9 @@ import 'package:flutter_syntax_view/flutter_syntax_view.dart';
 import '../../../../core/config/enum.dart';
 import '../../../../core/utils/responsive_utils.dart';
 import '../../../data/service/file_service.dart';
-import '../blocs/converter/converter_bloc.dart';
-import '../blocs/converter/converter_event.dart';
-import '../blocs/converter/converter_state.dart';
+import '../../blocs/converter/converter_bloc.dart';
+import '../../blocs/converter/converter_event.dart';
+import '../../blocs/converter/converter_state.dart';
 
 class ConverterView extends StatefulWidget {
   final ConversionType conversionType;

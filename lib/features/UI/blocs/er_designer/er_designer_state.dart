@@ -1,6 +1,6 @@
 // er_designer_state.dart
-import '../../../../data/models/relationship.dart';
-import '../../../../domain/entity/entity.dart';
+import '../../../data/models/relationship.dart';
+import '../../../domain/entity/entity.dart';
 
 abstract class ERDesignerState {}
 

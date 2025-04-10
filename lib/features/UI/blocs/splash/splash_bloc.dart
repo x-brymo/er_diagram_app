@@ -1,7 +1,7 @@
 // splash_bloc.dart
 import 'package:er_diagram_app/core/config/permission_service.dart';
 
-import '../../../../data/service/storage_service.dart';
+import '../../../data/service/storage_service.dart';
 import 'splash_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'splash_state.dart';

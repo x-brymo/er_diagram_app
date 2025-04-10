@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:er_diagram_app/core/utils/responsive_utils.dart';
 
 import '../../../data/service/file_service.dart';
-import '../blocs/file_import/file_import_bloc.dart';
-import '../blocs/file_import/file_import_event.dart';
-import '../blocs/file_import/file_import_state.dart';
+import '../../blocs/file_import/file_import_bloc.dart';
+import '../../blocs/file_import/file_import_event.dart';
+import '../../blocs/file_import/file_import_state.dart';
 
 class FileImportView extends StatelessWidget {
   const FileImportView({super.key});

@@ -1,6 +1,6 @@
 // er_designer_bloc.dart
-import 'package:er_diagram_app/features/UI/converte/blocs/er_designer/er_designer_event.dart';
-import 'package:er_diagram_app/features/UI/converte/blocs/er_designer/er_designer_state.dart';
+import 'package:er_diagram_app/features/UI/blocs/er_designer/er_designer_event.dart';
+import 'package:er_diagram_app/features/UI/blocs/er_designer/er_designer_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 

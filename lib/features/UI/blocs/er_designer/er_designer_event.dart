@@ -1,6 +1,6 @@
 // er_designer_event.dart
-import '../../../../data/models/relationship.dart';
-import '../../../../domain/entity/entity.dart';
+import '../../../data/models/relationship.dart';
+import '../../../domain/entity/entity.dart';
 
 abstract class ERDesignerEvent {}
 

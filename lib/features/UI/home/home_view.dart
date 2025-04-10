@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:er_diagram_app/core/utils/responsive_utils.dart';
 
 import '../../../core/config/enum.dart';
-import '../converte/blocs/home/home_bloc.dart';
+import '../blocs/home/home_bloc.dart';
 import '../converte/view/file_import_view.dart';
 import '../layout/er_designer_view.dart';
 

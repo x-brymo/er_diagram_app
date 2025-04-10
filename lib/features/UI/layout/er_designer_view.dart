@@ -1,6 +1,6 @@
 // er_designer_view.dart (simplified version)
-import 'package:er_diagram_app/features/UI/converte/blocs/er_designer/er_designer_event.dart';
-import 'package:er_diagram_app/features/UI/converte/blocs/er_designer/er_designer_state.dart';
+import 'package:er_diagram_app/features/UI/blocs/er_designer/er_designer_event.dart';
+import 'package:er_diagram_app/features/UI/blocs/er_designer/er_designer_state.dart';
 import 'package:er_diagram_app/features/UI/converte/widgets/entity_component.dart';
 import 'package:er_diagram_app/features/domain/entity/entity.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:er_diagram_app/core/utils/responsive_utils.dart';
 import 'package:uuid/uuid.dart';
 
-import '../converte/blocs/er_designer/er_designer_bloc.dart';
+import '../blocs/er_designer/er_designer_bloc.dart';
 import '../converte/widgets/relationship_component.dart';
 
 class ERDesignerView extends StatefulWidget {

@@ -1,7 +1,7 @@
 // splash_view.dart
-import 'package:er_diagram_app/features/UI/converte/blocs/splash/splash_bloc.dart';
-import 'package:er_diagram_app/features/UI/converte/blocs/splash/splash_event.dart';
-import 'package:er_diagram_app/features/UI/converte/blocs/splash/splash_state.dart';
+import 'package:er_diagram_app/features/UI/blocs/splash/splash_bloc.dart';
+import 'package:er_diagram_app/features/UI/blocs/splash/splash_event.dart';
+import 'package:er_diagram_app/features/UI/blocs/splash/splash_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -27,11 +27,12 @@ class SplashView extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  'assets/images/logo.png',
-                  width: 200,
-                  height: 200,
-                ),
+                // Image.asset(
+                //   'assets/images/logo.png',
+                //   width: 200,
+                //   height: 200,
+                // ),
+                Icon(Icons.design_services, size: 100, color: Theme.of(context).primaryColor),
                 const SizedBox(height: 30),
                 const CircularProgressIndicator(),
                 const SizedBox(height: 20),
