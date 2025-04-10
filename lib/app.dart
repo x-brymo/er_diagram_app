@@ -1,5 +1,10 @@
 // app.dart
 import 'package:er_diagram_app/core/config/permission_service.dart';
+import 'package:er_diagram_app/features/UI/converte/blocs/converter/converter_bloc.dart';
+import 'package:er_diagram_app/features/UI/converte/blocs/er_designer/er_designer_bloc.dart';
+import 'package:er_diagram_app/features/UI/converte/blocs/file_import/file_import_bloc.dart';
+import 'package:er_diagram_app/features/UI/converte/blocs/home/home_bloc.dart';
+import 'package:er_diagram_app/features/UI/converte/blocs/splash/splash_bloc.dart';
 import 'package:er_diagram_app/features/UI/splash/splash_view.dart';
 import 'package:er_diagram_app/features/data/service/file_service.dart';
 import 'package:er_diagram_app/features/data/service/storage_service.dart';
@@ -28,6 +33,26 @@ class ERDiagramApp extends StatelessWidget {
         ),
         RepositoryProvider<FileService>(
           create: (context) => FileService(),
+        ),
+       BlocProvider<HomeBloc>(create:
+       (context)=>HomeBloc()
+        
+        ),
+       BlocProvider<ConverterBloc>(create:
+       (context)=>ConverterBloc()
+        
+        ),
+       BlocProvider<SplashBloc>(create:
+       (context)=>SplashBloc()
+        
+        ),
+       BlocProvider<ERDesignerBloc>(create:
+       (context)=>ERDesignerBloc()
+        
+        ),
+       BlocProvider<FileImportBloc>(create:
+       (context)=>FileImportBloc()
+        
         ),
       ],
       child: MaterialApp(

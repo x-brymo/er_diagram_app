@@ -28,12 +28,10 @@ class FileService {
     try {
       String? path = await FilePicker.platform.getDirectoryPath();
       
-      if (path != null) {
-        final file = File('$path/$fileName');
-        await file.writeAsString(content);
-        return true;
-      }
-      return false;
+      final file = File('$path/$fileName');
+      await file.writeAsString(content);
+      return true;
+          return false;
     } catch (e) {
       return false;
     }
