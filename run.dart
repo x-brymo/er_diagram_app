@@ -6,7 +6,8 @@ void main() async {
   if (await file.exists()) {
     List<String> packages = await file.readAsLines();
     List<String> installedPackages = [];
-
+    // here can be read and show all code 
+    
     // Get already installed packages
     ProcessResult listResult = await Process.run('dart', ['pub', 'list']);
     if (listResult.exitCode == 0) {
